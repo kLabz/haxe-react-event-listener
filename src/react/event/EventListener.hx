@@ -12,6 +12,6 @@ typedef EventListenerProps = {
 	@:optional var children:ReactFragment;
 }
 
-@:acceptsMoreProps('react_event_EventListener_validator')
+@:acceptsMoreProps('react.event.EventListener')
 @:jsRequire('react-event-listener', 'default')
 extern class EventListener extends ReactComponentOfProps<EventListenerProps> {}

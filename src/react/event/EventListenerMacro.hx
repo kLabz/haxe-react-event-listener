@@ -4,7 +4,7 @@ import haxe.macro.Expr;
 import react.macro.PropsValidator;
 
 class EventListenerMacro {
-	public static inline var PROPS_VALIDATOR_KEY = 'react_event_EventListener_validator';
+	public static inline var PROPS_VALIDATOR_KEY = 'react.event.EventListener';
 
 	public static function registerValidator() {
 		PropsValidator.register(PROPS_VALIDATOR_KEY, validator);
