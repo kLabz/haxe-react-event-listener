@@ -7,6 +7,9 @@
   "license": "MIT",
   "tags": ["react"],
   "classPath": "src",
+  "dependencies": {
+    "react-types": ""
+  },
   "contributors": [
     "klabz"
   ]
